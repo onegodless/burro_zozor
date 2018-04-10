@@ -1,0 +1,31 @@
+@font-face {
+    font-family: 'ballpark';
+    font-style: normal;
+    font-weight: 400;
+    src: local('ballpark'),
+         url(../polices/ballpark.eot) format('embedded-opentype'),
+         url(../polices/ballpark.ttf) format('truetype'),
+         url(../polices/ballpark.woff) format('woff');
+}
+@font-face {
+    font-family: 'dayrom';
+    font-style: normal;
+    font-weight: 400;
+    src: local('dayrom'),
+         url(../polices/dayrom.eot) format('embedded-opentype'),
+         url(../polices/dayrom.ttf) format('truetype'),
+         url(../polices/dayrom.woff) format('woff');
+}
+
+*{
+    margin: 0;
+    padding: 0;
+}
+
+h1{
+    font-family: dayrom;
+}
+
+h2{
+    font-family: dayrom;
+}
