@@ -22,6 +22,16 @@
     padding: 0;
 }
 
+#contenedor{
+    margin:auto;
+    max-width: 900px;
+}
+
+header, #carrucel, footer{
+    width:95%;
+    
+}
+
 h1{
     font-family: dayrom;
 }
