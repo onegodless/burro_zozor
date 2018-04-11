@@ -24,11 +24,13 @@
 
 #contenedor{
     margin:auto;
-    max-width: 900px;
+    max-width: 950px;
+    background-color: lemonchiffon;
+    padding: 10px;
 }
 
 header, #carrucel, footer{
-    width:95%;
+    width:100%;
     
 }
 
@@ -38,4 +40,51 @@ h1{
 
 h2{
     font-family: dayrom;
+}
+
+#main_title{
+    display: inline-block;
+    width: 20%;
+}
+
+header nav{
+   display: inline-block; 
+   width: 700px;
+   text-align: right;
+}
+
+header nav ul li{
+    display: inline-block;
+    text-transform: uppercase;
+}
+
+header nav a{
+    text-decoration: none;
+}
+
+#news{
+    pading-top: 20px;
+}
+
+article{
+    display: inline-block;
+    width: 70%;
+}
+
+aside{
+    float: right;    
+    width: 27%;
+    height: 100%;
+}
+
+#tweet, #my_pictures, #my_friends{
+    margin-top: 10px;
+    float: left;
+    width: 30%;
+}
+
+#my_friends ul{
+    display: inline-block;
+    list-style: none;
+    margin-right: 10px;
 }
